@@ -13,6 +13,9 @@ background-image:  repeating-radial-gradient( circle at -25px -25px, transparent
 
 .playlist-card
 {
+    background-color: #4c0101;
+opacity: 0.8;
+background-image: radial-gradient(circle at center center, #000000, #000000), repeating-radial-gradient(circle at center center, #000000, #000000, 10px, transparent 20px, transparent 10px);
     width: 230px;
     height: 230px;
     border-radius: 5px;
