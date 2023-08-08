@@ -33,7 +33,7 @@ function Library() {
       <div className="library-body">
         {playLists?.map(playLists=>(
           <div key={playLists.id} onClick={()=>{playPlaylist(playLists.id,playLists.name)}} >
-            <Librarycard name={playLists.name} image={playLists.images[0].url} track={playLists.tracks.total}/>
+            <Librarycard name={playLists?.name} image={playLists?.images[0]?.url} track={playLists?.tracks.total}/>
           </div>
         ))}
       </div>
