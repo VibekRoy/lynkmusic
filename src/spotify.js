@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const authEndpoint = 'https://accounts.spotify.com/authorize?'
-const clientID = '5dd2418147ce4610a79afbdbcb042503'
+const clientID = '43eaab59e06c405ca9f113bd7f1a0002'
 const redirectUri = "https://lynk-music.onrender.com/"
 const scopes = ['user-library-read','playlist-read-private','user-read-currently-playing','playlist-modify-public','playlist-modify-private','user-read-private','user-read-email']
 
